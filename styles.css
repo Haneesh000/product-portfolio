@@ -161,10 +161,17 @@ footer .address {
     text-align: center;
 }
 
-.social-links div {
-    display: inline-block;
+.social-links a {
+    display: inline-flex;
     font-size: 1.5rem;
     margin-top: 1rem;
-    padding: 0.5rem 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
     padding-top: 0.3rem;
+    border-radius: 50%;
+    color: rgb(101, 101, 101);
+    margin: 0 1rem;
 }
