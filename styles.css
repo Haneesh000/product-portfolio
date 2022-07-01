@@ -140,3 +140,31 @@ nav {
 .titleContainer .content .contentTitle {
     font-family: 'Poppins';
 }
+
+footer {
+    padding: 1rem 3rem;
+    width: 100%;
+}
+
+footer .title {
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin: 0.5rem 0;
+}
+
+footer .address {
+    font-size: 1.1rem;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links div {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    padding-top: 0.3rem;
+}

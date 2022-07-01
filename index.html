@@ -95,9 +95,9 @@
                     </div>
                     <div class="col-lg-3 col-md-6 featureBox">
                         <div class="icon"><i class="fa-brands fa-google"></i></div>
-                        <div class="title"><a href="https://firebase.google.com" target="_blank">Google firebase</a></div>
+                        <div class="title"><a href="https://firebase.google.com" target="_blank">Google Firebase</a></div>
                         <div class="content">
-                            Integrated with <a href="https://firebase.google.com" target="_blank">google firebase</a>. A leading backend cloud service provider by google. Used in product for database, authentication, etc.
+                            Integrated with <a href="https://firebase.google.com" target="_blank">google firebase</a>. A leading backend cloud service provider by google. Firebase is used in the product for database, authentication, etc.
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 featureBox node">
@@ -107,11 +107,24 @@
                             This product is powered with <a href="https://www.nodejs.org" target="_blank">NodeJS</a> a popular and powerful web framework for JavaScript. A lot of packages in <a href="https://www.npmjs.com" target="_blank">npm</a> are also used in the product.
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-6 featureBox">
+                        <div class="icon"><i class="fa-solid fa-f"></i></div>
+                        <div class="title"><a href="https://dart.dev" target="_blank">Dart</a> and <a href="https://flutter.dev" target="_blank">Flutter</a> powered</div>
+                        <div class="content">
+                            This product is also powered with <a href="https://flutter.dev" target="_blank">Flutter</a> a popular framework created by google in <a href="https://dart.dev" target="_blank">Dart programming language</a> to create apps for any type of screens.
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 featureBox">
+                        <div class="icon"><i class="fa-solid fa-calendar-days"></i></div>
+                        <div class="title">24 &times; 7 Availability</div>
+                        <div class="content">After the lab is closed then if the ATL In-Charge require report suddenly it is an issue for them. But, the product is 24 &times; 7 available so it is not an issue.
+                        </div>
+                    </div>
                 </center>
             </div>
         </div>
     </section>
-    <section class="sectionContainer bg-custom-light">
+    <section class="sectionContainer">
         <div id="technologyStack">
             <div class="title">Technology Stack of the product:- </div>
             <ol id="techStackList">
@@ -142,7 +155,7 @@
             </div>
         </div>
     </section>
-    <section class="sectionContainer bg-custom-light">
+    <section class="sectionContainer">
         <div id="reports">
             <div class="title">List of Reports available in the product:- </div>
             <ul id="reportsList">
@@ -158,10 +171,26 @@
             </div>
         </div>
     </section>
+    <footer class="bg-custom-light">
+        <div class="title">Digital ATL In-Charge... A product to automate ATL</div>
+        <div class="address">
+            &copy; 2022 by Digital ATL In-Charge, Address - 38-37-63, Bhaskar Gardens, Marripalem, Visakhapatnam, Andhra Pradesh, India. Postal Code - 530018
+        </div>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank" data-bs-toggle="tooltip" title="Social media Facebook" data-bs-placement="bottom"><div class="facebook"><i class="fa-brands fa-facebook"></i></div></a>
+            <a href="https://twitter.com" target="_blank" data-bs-toggle="tooltip" title="Social media Twitter" data-bs-placement="bottom"><div class="twitter"><i class="fa-brands fa-twitter"></i></div></a>
+            <a href="https://instagram.com" target="_blank" data-bs-toggle="tooltip" title="Social media instagram" data-bs-placement="bottom"><div class="instagram"><i class="fa-brands fa-instagram"></i></div></a>
+            <a href="https://discord.com" target="_blank" data-bs-toggle="tooltip" title="Social media Discord" data-bs-placement="bottom"><div class="discord"><i class="fa-brands fa-discord"></i></div></a>
+            <a href="https://youtube.com" target="_blank" data-bs-toggle="tooltip" title="Social media YouTube" data-bs-placement="bottom"><div class="youtube"><i class="fa-brands fa-youtube"></i></div></a>
+        </div>
+        </p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
         let removed = false;
 
         function responsive() {
