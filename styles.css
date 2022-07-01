@@ -86,6 +86,7 @@ nav {
 }
 
 .featureBox .icon {
+    height: unset;
     font-size: 1.4rem;
 }
 
