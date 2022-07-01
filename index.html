@@ -40,7 +40,9 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="#features">Features</a></li>
-                                <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+                                <li><a class="dropdown-item" href="#technologyStack">Technology Stack</a></li>
+                                <li><a class="dropdown-item" href="#forms">List of forms</a></li>
+                                <li><a class="dropdown-item" href="#reports">List of reports</a></li>
                                 <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                             </ul>
                         </li>
@@ -58,8 +60,8 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div id="features">
+    <section id="features">
+        <div class="sectionContainer">
             <div class="title">Features of the product:- </div>
             <div class="featuresContent row">
                 <center>
@@ -100,7 +102,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 featureBox node">
                         <div class="icon"><i class="fa-brands fa-node-js"></i></div>
-                        <div class="title"><a href="https://www.nodejs.org" target="_blank">NodeJS Powered</a></div>
+                        <div class="title"><a href="https://www.nodejs.org" target="_blank">NodeJS</a> Powered</div>
                         <div class="content">
                             This product is powered with <a href="https://www.nodejs.org" target="_blank">NodeJS</a> a popular and powerful web framework for JavaScript. A lot of packages in <a href="https://www.npmjs.com" target="_blank">npm</a> are also used in the product.
                         </div>
@@ -108,7 +110,54 @@
                 </center>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="sectionContainer bg-custom-light">
+        <div id="technologyStack">
+            <div class="title">Technology Stack of the product:- </div>
+            <ol id="techStackList">
+                <li class="techStack"><a href="https://firebase.google.com" target="_blank">Google Firebase (Google Backend Cloud service provider)</a></li>
+                <li class="techStack"><a href="https://flutter.dev" target="_blank">Flutter (Dart Framework by google to create web apps)</a></li>
+                <li class="techStack"><a href="https://nodejs.org" target="_blank">NodeJS (A popular and powerful JavaScript Framework)</a></li>
+                <li class="techStack"><a href="https://npmjs.com" target="_blank">NPM (Node Package Manager)</a></li>
+                <li class="techStack"><a href="https://ejs.co" target="_blank">EJS (A popular templating or view engine used in NodeJS)</a></li>
+            </ol>
+            <div class="content">
+                There are more npm packages used like <a href="https://expressjs.com" target="_blank">ExpressJS</a>, <a href="https://lodash.com" target="_blank">Lodash</a> and <a href="https://ejs.co" target="_blank">EJS</a>.
+            </div>
+        </div>
+    </section>
+    <section class="sectionContainer">
+        <div id="forms">
+            <div class="title">List of Forms available in the product:- </div>
+            <ol id="formsList">
+                <li class="form">School form (To add new school)</li>
+                <li class="form">Student form (To add new student)</li>
+                <li class="form">Experiment form (To create new experiment)</li>
+                <li class="form">Team form (To create a new team)</li>
+                <li class="form">Community form (To add a community like</li>
+                <li class="form">Young mentors form (To add a new young mentor)</li>
+            </ol>
+            <div class="content">
+                All the forms are inter-linked. To add a new students you need to add a school. Like that and so on.
+            </div>
+        </div>
+    </section>
+    <section class="sectionContainer bg-custom-light">
+        <div id="reports">
+            <div class="title">List of Reports available in the product:- </div>
+            <ul id="reportsList">
+                <li class="report">School report (Report of schools)</li>
+                <li class="report">Student report (Report of students)</li>
+                <li class="report">Experiments report (Report of experiments)</li>
+                <li class="report">Teams report (Report of teams)</li>
+                <li class="report">Communities report (Report of communities)</li>
+                <li class="report">Young mentors report (Report of young mentors)</li>
+            </ul>
+            <div class="content">
+                All the data entered in the forms will be shown in the reports. In reports we also get update and delete options
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
