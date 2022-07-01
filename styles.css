@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Open Sans', 'Poppins', 'Ubuntu', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav {   
+    padding-top: 0.3rem;
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-item {
+    font-size: 20px;
+    padding-left: 0.7rem;
+}
+
+.icon {
+    border-radius: 0.3rem;
+    height: 1.5rem;
+}
+
+.titleContainer {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.content {
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+}
+
+.contentTitle {
+    font-weight: 300;
+}
+
+.subContent {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.container {
+    margin-top: 1rem;
+}
+
+.container .title {
+    font-size: 1.3rem;
+}
+
+#features .title {
+    font-size: 1.5rem;
+}
+
+.screenshot {
+    height: 25rem;
+    border: 2px solid rgb(124, 124, 124);
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+}
+
+.bg-custom-light {
+    background-color: rgb(236, 236, 236)!important;
+}
+
+.featureBox {
+    display: inline-block;
+    margin: 0 1rem;
+    z-index: -2;
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.featureBox .icon {
+    font-size: 1.4rem;
+}
+
+.featureBox .content {
+    height: 10rem;
+}
+
+.nav-link, .nav-link.active {
+    padding: 0 1.5rem !important;
+}
+
+.featuresContent.row {
+    text-align: center;
+}

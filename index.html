@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home | ATL Product Portfolio</title>
+    <link rel="stylesheet" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="mainContainer bg-custom-light">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">
+                    <a href="/">
+                        <img src="/favicon.ico" class="d-inline-block align-text-top icon">
+                        Digital ATL Incharge
+                    </a>
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/"><i class="fa-solid fa-house"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-light" href="/#about"><i class="fa-solid fa-circle-info"></i> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-light" href="/#support"><i class="fa-solid fa-user"></i> Support</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Current page links
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#features">Features</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+                                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="titleContainer">
+            <div class="title">Digital ATL Incharge</div>
+            <div class="content">
+                <div class="contentTitle">A product to automate  work of the ATL In-Charges and Mentors.</div>
+                <div class="screenshotContainer">
+                    <img src="/screenshot.png" class="screenshot">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="features">
+            <div class="title">Features of the product:- </div>
+            <div class="featuresContent row">
+                <center>
+                    <div class="col-lg-3 col-md-6 featureBox">
+                        <div class="icon"><i class="fa-solid fa-earth"></i></div>
+                        <div class="title">Time saver.</div>
+                        <div class="content">
+                            Saves a lot of time for the ATL In-Charges and mentors by automating most of their work. And also, it needs less human interaction.
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 featureBox">
+                        <div class="icon"><i class="fa-solid fa-align-justify"></i></div>
+                        <div class="title">Forms to collect data.</div>
+                        <div class="content">
+                            There are many forms which helps to collect data of students from mentors and In-Charges. Then this data is used for generating reports.
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 featureBox">
+                        <div class="icon"><i class="fa-solid fa-robot"></i></div>
+                        <div class="title">Automatic report generation.</div>
+                        <div class="content">
+                            In the present time to manually write reorts is a problem. It is solved by automatic report generation in the product.
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script>
+        let removed = false;
+
+        function responsive() {
+            if(window.outerWidth <= 924 && removed == false) {
+                document.querySelector(".screenshotContainer").remove();
+                removed = true;
+            }
+        }
+
+        setInterval(responsive, 1);
+    </script>
+    <script src="https://kit.fontawesome.com/df7d8e99f4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
