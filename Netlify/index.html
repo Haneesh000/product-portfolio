@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home | ATL Product Portfolio</title>
+    <link rel="stylesheet" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="rgb(236, 236, 236)">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+
+<body>
+    <div class="mainContainer bg-custom-light">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">
+                    <a href="/">
+                        <img src="favicon.ico" class="d-inline-block align-text-top icon">
+                        Digital ATL Incharge
+                    </a>
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/"><i class="fa-solid fa-house"></i> Home</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link color-light" href="/#about"><i class="fa-solid fa-circle-info"></i> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link color-light" href="/#support"><i class="fa-solid fa-user"></i> Support</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link color-light" href="https://atl-project.herokuapp.com"><i class="fa-solid fa-earth-americas"></i> Production link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Current page links
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#features">Features</a></li>
+                                <li><a class="dropdown-item" href="#technologyStack">Technology Stack</a></li>
+                                <li><a class="dropdown-item" href="#forms">List of forms</a></li>
+                                <li><a class="dropdown-item" href="#reports">List of reports</a></li>
+        
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="titleContainer">
+            <div class="title">Digital ATL Incharge</div>
+            <div class="content">
+                <div class="contentTitle">A product to automate  work of the ATL In-Charges and Mentors.</div>
+                <div class="screenshotContainer">
+                    <img src="screenshot.png" class="screenshot">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="features">
+        <div class="sectionContainer">
+            <div class="title">Features of the product:- </div>
+            <div class="featuresContent row">
+                <center>
+                    <div class="col-lg-3 col-md-6 featureBox">
+                        <div class="icon"><i class="fa-solid fa-clock"></i></div>
+                        <div class="title">Time saver.</div>
+                        <div class="content">
+                            Saves a lot of time for the ATL In-Charges and mentors by automating most of their work. And also, it needs less human interaction.
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 featureBox">
+                        <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+                        <div class="title">Forms to collect data.</div>
+                        <div class="content">
+                            There are many forms which helps to collect data of students from mentors and In-Charges. Then this data is used for generating reports.
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 featureBox">
+                        <div class="icon"><i class="fa-solid fa-robot"></i></div>
+                        <div class="title">Automatic report generation.</div>
+                        <div class="content">
+                            In the present time to manually write reorts is a problem. It is solved by automatic report generation in the product.
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 featureBox">
+                        <div class="icon"><i class="fa-solid fa-earth-americas"></i></div>
+                        <div class="title">Online</div>
+                        <div class="content">
+                            Can be accessed from any device which has a valid internet connection at any time and any place. If there is a report on paper we can easily lose it.
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 featureBox">
+                        <div class="icon"><i class="fa-solid fa-calendar-days"></i></div>
+                        <div class="title">24 &times; 7 Availability</div>
+                        <div class="content">After the lab is closed then if the ATL In-Charge require report suddenly it is an issue for them. But, the product is 24 &times; 7 available so it is not an issue.
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </section>
+    <section class="sectionContainer">
+        <div id="technologyStack">
+            <div class="title">Technology Stack of the product:- </div>
+            <center> 
+                <div class="col-lg-3 col-md-6 featureBox">
+                    <div class="icon"><i class="fa-brands fa-google"></i></div>
+                    <div class="title"><a href="https://firebase.google.com" target="_blank">Google Firebase</a></div>
+                    <div class="content">
+                        Integrated with <a href="https://firebase.google.com" target="_blank">google firebase</a>. A leading backend cloud service provider by google. Firebase is used in the product for database, authentication, etc.
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 featureBox node">
+                    <div class="icon"><i class="fa-brands fa-node-js"></i></div>
+                    <div class="title"><a href="https://www.nodejs.org" target="_blank">NodeJS</a> Powered</div>
+                    <div class="content">
+                        This product is powered with <a href="https://www.nodejs.org" target="_blank">NodeJS</a> a popular and powerful web framework for JavaScript. A lot of packages in <a href="https://www.npmjs.com" target="_blank">npm</a> are also used in the product.
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 featureBox">
+                    <div class="icon"><i class="fa-solid fa-f"></i></div>
+                    <div class="title"><a href="https://dart.dev" target="_blank">Dart</a> and <a href="https://flutter.dev" target="_blank">Flutter</a> powered</div>
+                    <div class="content">
+                        This product is also powered with <a href="https://flutter.dev" target="_blank">Flutter</a> a popular framework created by google in <a href="https://dart.dev" target="_blank">Dart programming language</a> to create apps for any type of screens.
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 featureBox">
+                    <div class="icon"><i class="fa-brands fa-npm"></i></div>
+                    <div class="title"><a href="https://npmjs.com" target="_blank">NPM powered</a></div>
+                    <div class="content">
+                        This product is also powered with <a href="https://flutter.dev" target="_blank">NPM (Node Package Manager)</a> a popular package manager for <a href="https://nodejs.org" target="_blank">NodeJS</a>.
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 featureBox">
+                    <div class="icon"><i class="fa-solid fa-e"></i></div>
+                    <div class="title"><a href="https://ejs.co" target="_blank">EJS powered</a></div>
+                    <div class="content">
+                        This product also uses <a href="https://ejs.co" target="_blank">EJS (Embedded JavaScript Templating)</a> a popular view engine which runs with <a href="https://nodejs.org" taget="_blank">NodeJS</a>.
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 featureBox">
+                    <div class="icon"><i class="fa-solid fa-e"></i> <i class="fa-solid fa-x"></i></div>
+                    <div class="title"><a href="https://expressjs.com" target="_blank">ExpressJS powered</a></div>
+                    <div class="content">
+                        This product also uses <a href="https://expressjs.com" target="_blank">ExpressJS</a> a popular backend URL routing framework engine which runs with <a href="https://nodejs.org" taget="_blank">NodeJS</a>.
+                    </div>
+                </div>
+            </center>
+            </div>
+            <div class="content">
+                There are more npm packages used like <a href="https://expressjs.com" target="_blank">ExpressJS</a>, <a href="https://lodash.com" target="_blank">Lodash</a> and <a href="https://ejs.co" target="_blank">EJS</a>.
+            </div>
+        </div>
+    </section>
+    <section class="sectionContainer">
+        <div id="forms">
+            <div class="title">List of Forms available in the product:- </div>
+            <ol id="formsList">
+                <li class="form">School form (To add new school)</li>
+                <li class="form">Student form (To add new student)</li>
+                <li class="form">Experiment form (To create new experiment)</li>
+                <li class="form">Team form (To create a new team)</li>
+                <li class="form">Community form (To add a community like</li>
+                <li class="form">Young mentors form (To add a new young mentor)</li>
+            </ol>
+            <div class="content">
+                All the forms are inter-linked. To add a new students you need to add a school. Like that and so on.
+            </div>
+        </div>
+    </section>
+    <section class="sectionContainer">
+        <div id="reports">
+            <div class="title">List of Reports available in the product:- </div>
+            <ul id="reportsList">
+                <li class="report">School report (Report of schools)</li>
+                <li class="report">Student report (Report of students)</li>
+                <li class="report">Experiments report (Report of experiments)</li>
+                <li class="report">Teams report (Report of teams)</li>
+                <li class="report">Communities report (Report of communities)</li>
+                <li class="report">Young mentors report (Report of young mentors)</li>
+            </ul>
+            <div class="content">
+                All the data entered in the forms will be shown in the reports. In reports we also get update and delete options
+            </div>
+        </div>
+    </section>
+    <footer class="bg-custom-light">
+        <div class="title">Digital ATL In-Charge... A product to digitalize the work of ATL In-Charge</div>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank" data-bs-toggle="tooltip" title="Social media Facebook" data-bs-placement="bottom" class="btn btn-light"><div class="facebook"><i class="fa-brands fa-facebook-f"></i></div></a>
+            <a href="https://twitter.com" target="_blank" data-bs-toggle="tooltip" title="Social media Twitter" data-bs-placement="bottom" class="btn btn-light"><div class="twitter"><i class="fa-brands fa-twitter"></i></div></a>
+            <a href="https://instagram.com" target="_blank" data-bs-toggle="tooltip" title="Social media instagram" data-bs-placement="bottom" class="btn btn-light"><div class="instagram"><i class="fa-brands fa-instagram"></i></div></a>
+            <a href="https://discord.com" target="_blank" data-bs-toggle="tooltip" title="Social media Discord" data-bs-placement="bottom" class="btn btn-light"><div class="discord"><i class="fa-brands fa-discord"></i></div></a>
+            <a href="https://youtube.com" target="_blank" data-bs-toggle="tooltip" title="Social media YouTube" data-bs-placement="bottom" class="btn btn-light"><div class="youtube"><i class="fa-brands fa-youtube"></i></div></a>
+        </div>
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        let removed = false;
+
+        function responsive() {
+            if(window.outerWidth <= 250 && removed == false) {
+                document.querySelector(".screenshotContainer").remove();
+                removed = true;
+            }
+        }
+
+        setInterval(responsive, 1);
+    </script>
+    <script src="https://kit.fontawesome.com/df7d8e99f4.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <!-- <script>(function(w, d) { w.CollectId = "62bfd09c7fd5da5e20c6ade5"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script> -->
+    <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "6441c9942513006bd585c6dca42f0f083a1dd2fa5e96fe035014a7bea5881451ecbe33e741b388ef61c19b24c5955c63", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+</body>
+
+</html>
