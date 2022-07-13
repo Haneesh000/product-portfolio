@@ -228,10 +228,6 @@
             </div>
         </div>
     </section>
-    <div id="collapse1">Collapse</div>
-    <div id="collapse1Content">
-        Hello
-    </div>
     <section class="sectionContainer">
         <div id="reports">
             <div class="title">List of Reports available in the product:- </div>
@@ -251,6 +247,9 @@
     </section>
     <footer class="bg-custom-light">
         <div class="title">Digital ATL In-Charge... A product to digitalize the work of ATL In-Charge</div>
+        <div class="links">
+            <a href="/terms-and-conditions/">Terms & Conditions</a> | <a href="/privacy-policy/">Privacy Policy</a>
+        </div>
         <div class="social-links">
             <a href="https://facebook.com" target="_blank" data-bs-toggle="tooltip" title="Social media Facebook"
                 data-bs-placement="bottom" class="btn btn-light">
@@ -279,14 +278,6 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script>
-        document.getElementById("collapse1Content").style.visibility = "hidden";
-        document.getElementById("collapse1").addEventListener("click", () => {
-            if (document.getElementById("collapse1Content").style.visibility == "visible") {
-                document.getElementById("collapse1Content").style.visibility = "hidden"
-            } else if (document.getElementById("collapse1Content").style.visibility == "hidden") {
-                document.getElementById("collapse1Content").style.visibility = "visible";
-            }
-        });
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
         let removed = false;
