@@ -171,3 +171,19 @@ footer .address {
     color: rgb(101, 101, 101);
     margin: 0 1rem;
 }
+
+.pricing-card {
+    margin: 1rem 1rem 1rem 11rem;
+    text-align: center;
+}
+
+.pricing-card2 {
+    margin: 1rem 11rem 1rem 1rem;
+    text-align: center;
+}
+
+.price.title {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
