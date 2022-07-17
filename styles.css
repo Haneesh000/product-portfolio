@@ -73,7 +73,7 @@ nav {
 }
 
 .screenshot {
-    height: 25rem;
+    height: 15rem;
     border: 2px solid rgb(124, 124, 124);
     margin-top: 1rem;
     border-radius: 1.5rem;
@@ -186,4 +186,16 @@ footer .address {
     text-align: center;
     margin-top: 1rem;
     font-size: 1.8rem;
+}
+
+.card-header {
+    padding-top: 1rem;
+}
+
+.forms, .reports {
+    font-weight: 400;
+    margin: 1.5rem;
+    margin-left: 5rem;
+    vertical-align: top;
+    text-align: left;
 }

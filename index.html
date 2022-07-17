@@ -48,7 +48,8 @@
                                 Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/buy"><i class="fa-solid fa-indian-rupee-sign"></i>
+                            <a class="nav-link" aria-current="page" href="/buy"><i
+                                    class="fa-solid fa-indian-rupee-sign"></i>
                                 Buy</a>
                         </li>
                         <!-- <li class="nav-item">
@@ -58,21 +59,7 @@
                             <a class="nav-link color-light" href="/#support"><i class="fa-solid fa-user"></i> Support</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link color-light" href="https://atl-project.herokuapp.com"><i
-                                    class="fa-solid fa-earth-americas"></i> Production link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Current page links
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#features">Features</a></li>
-                                <li><a class="dropdown-item" href="#technologyStack">Technology Stack</a></li>
-                                <li><a class="dropdown-item" href="#forms">List of forms</a></li>
-                                <li><a class="dropdown-item" href="#reports">List of reports</a></li>
-
-                            </ul>
+                            <a class="nav-link color-light" href="https://expexp-d7f70.firebaseapp.com"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
                         </li>
                     </ul>
                 </div>
@@ -83,8 +70,45 @@
             <div class="content">
                 <div class="contentTitle">A product to automate work of the ATL In-Charges and Mentors.</div>
                 <div class="screenshotContainer">
-                    <img src="screenshot.png" class="screenshot">
+                    <img src="screenshot.png" alt="screenshot" aria-details="Screen shot of app" class="screenshot">
                 </div>
+                <table>
+                    <tr>
+                        <th>
+                            <div class="forms">
+                                <div class="title">List of Forms available in the product:- </div>
+                                <ol id="formsList">
+                                    <li class="form">School form (To add new school)</li>
+                                    <li class="form">Student form (To add new student)</li>
+                                    <li class="form">Experiment form (To create new experiment)</li>
+                                    <li class="form">Team form (To create a new team)</li>
+                                    <li class="form">Community form (To add a community like</li>
+                                    <li class="form">Young mentors form (To add a new young mentor)</li>
+                                </ol>
+                                <div class="content">
+                                    All the forms are inter-linked. To add a new students you need to add a school. Like that and so on.
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="reports">
+                                <div class="title">List of Reports available in the product:- </div>
+                                <ul id="reportsList">
+                                    <li class="report">School report (Report of schools)</li>
+                                    <li class="report">Student report (Report of students)</li>
+                                    <li class="report">Experiments report (Report of experiments)</li>
+                                    <li class="report">Teams report (Report of teams)</li>
+                                    <li class="report">Communities report (Report of communities)</li>
+                                    <li class="report">Young mentors report (Report of young mentors)</li>
+                                </ul>
+                                <div class="content">
+                                    All the data entered in the forms will be shown in the reports. In reports we also get update and delete
+                                    options
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
@@ -159,7 +183,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 featureBox node">
                     <div class="icon"><i class="fa-brands fa-node-js"></i></div>
-                    <div class="title"><a href="https://www.nodejs.org" target="_blank">NodeJS</a> Powered</div>
+                    <div class="title"><a href="https://www.nodejs.org" target="_blank">NodeJS Powered</a></div>
                     <div class="content">
                         This product is powered with <a href="https://www.nodejs.org" target="_blank">NodeJS</a> a
                         popular and powerful web framework for JavaScript. A lot of packages in <a
@@ -213,35 +237,32 @@
         </div>
     </section>
     <section class="sectionContainer">
-        <div id="forms">
-            <div class="title">List of Forms available in the product:- </div>
-            <ol id="formsList">
-                <li class="form">School form (To add new school)</li>
-                <li class="form">Student form (To add new student)</li>
-                <li class="form">Experiment form (To create new experiment)</li>
-                <li class="form">Team form (To create a new team)</li>
-                <li class="form">Community form (To add a community like</li>
-                <li class="form">Young mentors form (To add a new young mentor)</li>
-            </ol>
-            <div class="content">
-                All the forms are inter-linked. To add a new students you need to add a school. Like that and so on.
+        <div class="title">Pricing: </div>
+        <div class="row">
+            <div class="pricing-card col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <h3>Monthly</h3>
+                  </div>
+                  <div class="card-body">
+                    <h2 class="price-text">₹500</h2>
+                    <p>This is a monthly plan for ₹500. The currency is Rupee(₹). You will have to renew to monthly.</p>
+                    <a href="/buy/"><button type="button" class="signup-btn btn-lg btn-block btn btn-outline-dark">Sign Up</button></a>
+                  </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="sectionContainer">
-        <div id="reports">
-            <div class="title">List of Reports available in the product:- </div>
-            <ul id="reportsList">
-                <li class="report">School report (Report of schools)</li>
-                <li class="report">Student report (Report of students)</li>
-                <li class="report">Experiments report (Report of experiments)</li>
-                <li class="report">Teams report (Report of teams)</li>
-                <li class="report">Communities report (Report of communities)</li>
-                <li class="report">Young mentors report (Report of young mentors)</li>
-            </ul>
-            <div class="content">
-                All the data entered in the forms will be shown in the reports. In reports we also get update and delete
-                options
+            <div class="pricing-card2 col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Yearly</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">₹5000</h2>
+                            <p>This is a monthly plan for ₹5000. The currency is Rupee(₹). You will have to renew to yearly.</p>
+                            <a href="/buy/"><button type="button" class="signup-btn btn-lg btn-block btn btn-outline-dark">Sign Up</button></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -283,7 +304,7 @@
         let removed = false;
 
         function responsive() {
-            if (window.outerWidth <= 250 && removed == false) {
+            if (window.innerWidth <= 250 && removed == false) {
                 document.querySelector(".screenshotContainer").remove();
                 removed = true;
             }
