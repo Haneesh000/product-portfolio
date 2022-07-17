@@ -1,0 +1,8 @@
+.container {
+    height: 64vh;
+    margin: 1rem 0.5rem;
+}
+
+.container .title {
+    font-family: 'Montserrat', 'Poppins', 'Ubuntu', 'Roboto', 'Open Sans', Arial, sans-serif;
+}
