@@ -119,6 +119,7 @@ nav {
     font-size: 1.3rem;
     list-style: none;
     margin-top: 0.5rem;
+    text-align: left;
 }
 
 .techStack:before, .form:before, .report:before {
@@ -198,4 +199,13 @@ footer .address {
     margin-left: 5rem;
     vertical-align: top;
     text-align: left;
+}
+
+th {
+    width: 40%;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
 }
